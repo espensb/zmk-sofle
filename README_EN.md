@@ -2,6 +2,7 @@
 
 - [Chinese](README.md)
 - [English](README_EN.md)
+- [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/)
 
 ## Update List
 
