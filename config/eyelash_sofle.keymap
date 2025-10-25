@@ -47,6 +47,11 @@
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
         };
+
+        zmk_unlock {
+            bindings = <&studio_unlock>;
+            key-positions = <41 42 43 47 48 49>;
+        };
     };
 
     keymap {
@@ -89,6 +94,16 @@
 
             display-name = "layer2";
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+            >;
         };
     };
 };
