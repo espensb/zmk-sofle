@@ -80,6 +80,7 @@
             >;
 
             sensor-bindings = <&scroll_encoder>;
+            label = "SYMBOLS";
         };
 
         layer2 {
@@ -91,7 +92,7 @@
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
-            display-name = "layer2";
+            display-name = "MOVEMENT";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -104,7 +105,7 @@
 &trans     &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
-            display-name = "layer3";
+            display-name = "SYSTEM";
             sensor-bindings = <&scroll_encoder>;
         };
     };
